@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('images/bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #f3f3f3;
+    z-index: 999;
+}
+
+.menu{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: -650px;
+    transition: all 0.4s ease-in;
+}
+
+.menu img{
+    border-radius: 5px;
+}
+
+.taskbarRight{
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}
